@@ -6,7 +6,7 @@
 /*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 16:23:29 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/19 15:31:03 by mrattez          ###   ########.fr       */
+/*   Updated: 2021/10/25 09:49:34 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 	d = dst;
 	s = (unsigned char *)src;
+	if (!dst && !src)
+		return (dst);
 	while (n--)
 		*d++ = *s++;
 	return (dst);
