@@ -6,7 +6,7 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 10:00:43 by mrattez           #+#    #+#             */
-/*   Updated: 2021/11/15 10:21:35 by mrattez          ###   ########.fr       */
+/*   Updated: 2021/11/22 12:11:09 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ int		ft_isalpha(int c);
 int		ft_isascii(int c);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
+int		ft_isspace(int c);
 char	*ft_itoa(int n);
 void	ft_lstadd_back(t_list **alst, t_list *new);
 void	ft_lstadd_front(t_list **alst, t_list *new);
