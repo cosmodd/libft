@@ -1,5 +1,6 @@
 # SOURCES
 SRCS	= srcs/ft_atoi.c \
+		srcs/ft_atol.c \
 		srcs/ft_bzero.c \
 		srcs/ft_calloc.c \
 		srcs/ft_isalnum.c \
