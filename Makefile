@@ -50,18 +50,40 @@ OBJS	= $(SRCS:.c=.o)
 # COMPILATION
 CC		= gcc
 AR		= ar
-CFLAGS	= -Wall -Wextra -Werror
+CFLAGS	= -Wall -Wextra -Werror -O3
 INCS	= -Iincludes
 FLAGS	= $(CFLAGS) $(INCS)
 
 # OTHER
-NAME=libft.a
+NAME	= libft.a
+SHELL	= zsh
+
+# COLORS
+BG_RD	= \033[48;2;237;66;69m
+BG_GR	= \033[48;2;0;194;60m
+BG_BL	= \033[48;2;88;101;242m
+FG_WH	= \033[38;2;255;255;255m
+FG_BK	= \033[38;2;0;0;0m
+BOLD	= \033[1m
+NOCOL	= \033[0m
+
+# CHARS
+TICK	= ✓
+PEN		= ✐
+CROSS	= 𐄂
+
+# MESSAGES
+VALID	= $(BOLD)$(FG_WH)$(BG_GR) $(TICK)
+INFO	= $(BOLD)$(FG_WH)$(BG_BL) $(PEN)
+DEL		= $(BOLD)$(FG_WH)$(BG_RD) $(CROSS)
 
 .c.o:
 	@$(CC) $(FLAGS) -c $< -o $@
+	@echo -n "\033[1000D\033[2K$(INFO) $(notdir $@) $(NOCOL)"
 
 $(NAME): $(OBJS)
 	@$(AR) rcus $@ $(OBJS)
+	@echo "\033[1000D\033[2K$(VALID) libft compiled $(NOCOL)"
 
 all: $(NAME)
 
