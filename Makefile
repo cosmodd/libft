@@ -38,6 +38,7 @@ SRCS	= srcs/ft_atoi.c \
 		srcs/ft_strlen.c \
 		srcs/ft_strmapi.c \
 		srcs/ft_strncmp.c \
+		srcs/ft_strndup.c \
 		srcs/ft_strnstr.c \
 		srcs/ft_strrchr.c \
 		srcs/ft_strtrim.c \
