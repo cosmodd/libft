@@ -30,6 +30,7 @@ SRCS	= srcs/ft_atoi.c \
 		srcs/ft_putstr_fd.c \
 		srcs/ft_split.c \
 		srcs/ft_strchr.c \
+		srcs/ft_strcmp.c \
 		srcs/ft_strdup.c \
 		srcs/ft_striteri.c \
 		srcs/ft_strjoin.c \
