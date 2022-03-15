@@ -34,6 +34,7 @@ SRCS	= srcs/ft_atoi.c \
 		srcs/ft_strdup.c \
 		srcs/ft_striteri.c \
 		srcs/ft_strjoin.c \
+		srcs/ft_strl_join.c \
 		srcs/ft_strlcat.c \
 		srcs/ft_strlcpy.c \
 		srcs/ft_strlen.c \
