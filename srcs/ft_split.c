@@ -6,7 +6,7 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/21 10:59:32 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/26 16:13:54 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:36:47 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,13 @@ static char	*ft_extract_word(char *s, char c)
 	return (ft_substr(s, 0, word_len));
 }
 
+/**
+ * @brief Splits a string into an array of strings.
+ *
+ * @param s The string to split.
+ * @param c The character to split the string on.
+ * @return An array of strings.
+ */
 char	**ft_split(const char *s, char c)
 {
 	char	**tab;

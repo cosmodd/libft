@@ -6,12 +6,18 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/23 11:44:55 by mrattez           #+#    #+#             */
-/*   Updated: 2021/11/04 15:07:17 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:20:25 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Adds a new element at the beginning of a list.
+ *
+ * @param alst The list to add the element to.
+ * @param new The element to add.
+ */
 void	ft_lstadd_front(t_list **alst, t_list *new)
 {
 	if (*alst)

@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 14:58:43 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/22 15:07:20 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:33:39 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Prints a number to a file descriptor.
+ *
+ * @param n The number to print.
+ * @param fd The file descriptor to print the number to.
+ */
 void	ft_putnbr_fd(int n, int fd)
 {
 	char	c;

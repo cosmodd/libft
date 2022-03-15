@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 15:58:27 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/22 11:06:17 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:39:11 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Copies a string to a buffer.
+ *
+ * @param dst The destination string.
+ * @param src The source string.
+ * @param dstsize The size of the destination string.
+ * @return The size of the string after copying.
+ */
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	src_len;

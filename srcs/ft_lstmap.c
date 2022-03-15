@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/23 12:37:45 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/23 13:53:33 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:22:52 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Creates a new list by applying a function to each element.
+ *
+ * @param lst The list to map.
+ * @param f The function to use to map the list.
+ * @param del The function to use to free the data.
+ * @return A new list.
+ */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new;

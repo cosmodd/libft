@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 13:32:21 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/22 15:12:03 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:19:34 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,12 @@ static void	ft_put_digits(char *s, unsigned int n, size_t size)
 	s[size] = n % 10 + '0';
 }
 
+/**
+ * @brief Converts an integer to a string.
+ *
+ * @param n The integer to convert.
+ * @return The converted string.
+ */
 char	*ft_itoa(int n)
 {
 	unsigned int	neg;

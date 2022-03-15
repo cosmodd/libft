@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 15:12:49 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/22 15:28:38 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:42:03 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Compares two strings until a maximum of n characters.
+ *
+ * @param s1 The first string to compare.
+ * @param s2 The second string to compare.
+ * @param n The size of the strings.
+ * @return The difference between the two strings.
+ */
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	unsigned char	a;

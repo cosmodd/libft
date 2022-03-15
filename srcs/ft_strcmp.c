@@ -6,12 +6,19 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/07 09:41:52 by mrattez           #+#    #+#             */
-/*   Updated: 2022/03/07 09:51:53 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:37:20 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Compares two strings.
+ *
+ * @param s1 The first string to compare.
+ * @param s2 The second string to compare.
+ * @return The difference between the two strings.
+ */
 int	ft_strcmp(const char *s1, const char *s2)
 {
 	unsigned char	a;

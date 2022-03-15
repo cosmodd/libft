@@ -3,15 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/19 15:47:40 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/20 09:47:27 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:37:33 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Duplicates a string.
+ *
+ * @param s1 The string to duplicate.
+ * @return A pointer to the duplicated string.
+ */
 char	*ft_strdup(const char *s1)
 {
 	char	*dest;

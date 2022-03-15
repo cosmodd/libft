@@ -3,13 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 14:51:26 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/18 15:06:02 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:16:10 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+/**
+ * @brief Converts a string to an integer.
+ *
+ * @param str The string to convert.
+ * @return The converted integer.
+ */
 int	ft_atoi(const char *str)
 {
 	int	sign;

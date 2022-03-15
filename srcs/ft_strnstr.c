@@ -3,16 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/19 14:13:50 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/23 09:54:52 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:43:02 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
 
+/**
+ * @brief Returns a pointer to the first occurrence of the substring needle.
+ *
+ * @param haystack The string to search in.
+ * @param needle The substring to search for.
+ * @param len The maximum number of characters to search.
+ * @return A pointer to the first occurrence of the substring needle.
+ */
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	size_t	i;

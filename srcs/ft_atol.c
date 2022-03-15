@@ -6,12 +6,18 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 14:41:18 by mrattez           #+#    #+#             */
-/*   Updated: 2021/12/01 14:43:32 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:16:33 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Converts a string to a long integer.
+ *
+ * @param str The string to convert.
+ * @return The converted long integer.
+ */
 long	ft_atol(const char *str)
 {
 	int		sign;

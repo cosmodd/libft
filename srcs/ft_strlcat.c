@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 16:49:14 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/22 11:06:14 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:38:39 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Appends the string src to the string dst.
+ *
+ * @param dst The destination string.
+ * @param src The source string.
+ * @param dstsize The size of the destination string.
+ * @return The size of the string after appending.
+ */
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	dstlen;

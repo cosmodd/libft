@@ -3,15 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mrattez <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 15:34:15 by mrattez           #+#    #+#             */
-/*   Updated: 2021/10/20 11:41:19 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/03/15 14:31:06 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Sets a memory area to a value.
+ *
+ * @param b The memory area to set.
+ * @param c The value to set the memory area to.
+ * @param len The size of the memory area.
+ * @return The pointer to the memory area.
+ */
 void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	*s;
