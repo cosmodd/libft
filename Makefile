@@ -47,6 +47,7 @@ SRCS	= srcs/ft_atoi.c \
 		srcs/ft_substr.c \
 		srcs/ft_tolower.c \
 		srcs/ft_toupper.c \
+		srcs/get_next_line.c \
 
 OBJS	= $(SRCS:.c=.o)
 
