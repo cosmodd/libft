@@ -6,7 +6,7 @@
 /*   By: mrattez <mrattez@student.42nice.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/20 10:00:43 by mrattez           #+#    #+#             */
-/*   Updated: 2022/09/27 15:31:51 by mrattez          ###   ########.fr       */
+/*   Updated: 2022/10/12 16:23:39 by mrattez          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef struct s_list
 	struct s_list	*next;
 }	t_list;
 
+double	ft_atof(char *str);
 int		ft_atoi(const char *str);
 long	ft_atol(const char *str);
 void	ft_bzero(void *s, size_t n);
